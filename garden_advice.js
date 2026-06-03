@@ -7,8 +7,10 @@ let advice = "";
 
 // Determine advice based on the season
 if (season === "summer") {
+    advice += "Three plants that thrive in the summer are lantanas, black-eyed susans, and cosmos.\n";
     advice += "Water your plants regularly and provide some shade.\n";
 } else if (season === "winter") {
+    advice += "Three plants that thrive in the winter are camellias, hellebores, and winterberries.\n";
     advice += "Protect your plants from frost with covers.\n";
 } else {
     advice += "No advice for this season.\n";
